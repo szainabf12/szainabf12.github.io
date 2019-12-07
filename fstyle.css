@@ -1,0 +1,111 @@
+/*
+
+	Zainab Syeda
+	fstyle.css
+	
+*/
+
+/* Field set style */
+
+fieldset {
+	background-color: rgb(231, 231, 255);
+	border: 1px solid rgb(67, 76, 169);
+	float: left;
+	margin: 10px 0px 10px 2.5%;
+	width: 46%;
+}
+
+legend {
+	background-color: rgb(67, 76, 169);
+	color: white;
+	padding: 5px;
+}
+
+
+/* Label style */
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%
+}
+
+/* Input control style */
+
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+}
+
+/* Selection list style */
+
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+/* Year style */
+
+#years {
+	width: 50px;
+}
+
+/* Checkbox style */
+
+input#call {
+	clear: left;
+	width: 25px;
+}
+
+input#call+label {
+	clear: none;
+	width: auto;
+}
+
+/* Button style */
+
+input[type="submit"] {
+	clear: left;
+}
+
+input[type="submit"], input[type="reset"] {
+	height: 40px;
+	margin-right: 20px;
+	width: 200px;
+}
+
+/* Validation styles */
+
+input:focus, select:focus {
+	background-color: ivory;
+	
+}
+
+input:focus:valid{
+	background: rgb(220, 255, 220) url(go.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid {
+	background: rgb(255, 232, 233) url(stop.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+
+

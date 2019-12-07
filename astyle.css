@@ -1,0 +1,14 @@
+/*
+
+	Zainab Syeda
+	astyle.css
+	
+*/
+
+/* Audio Style */
+
+audio, object, embed {
+	display: block;
+	margin: 15px auto;
+}
+

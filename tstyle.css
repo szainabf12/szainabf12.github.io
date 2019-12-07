@@ -1,0 +1,33 @@
+/*
+
+	Zainab Syeda
+	Filename: tstyle.css
+	
+*/
+
+table {
+	font-size: 14px;
+	border-collapse: collapse;
+	border: 10px outset rgb(68, 76, 169);
+	margin: 10px auto;
+	width: 400px;
+}
+
+thead {
+	background-color: ivory;
+}
+
+th, td {
+	border: 1px solid black;
+	vertical-align: top;
+	padding: 5px;
+}
+
+tr td:nth-of-type(2), tr td:nth-of-type(3) {
+	text-align: right;
+}
+
+.caseInfo {
+	background-color: rgb(232,232,255);
+}
+
